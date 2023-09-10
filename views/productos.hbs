@@ -1,5 +1,8 @@
 <!-- /top navigation -->
 
+<body onload="listraDatos()">
+  
+
 <!-- head -->
 <div class="right_col" role="main">
 
@@ -41,7 +44,7 @@
 
     <!-- tabla -->
 
-    <div class="row">
+    {{!-- <div class="row">
       <div class="container mt-3">
 
 
@@ -150,5 +153,29 @@
 
       <!-- footer content -->
       <!-- /footer content -->
-    </div>
+    </div> --}}
+
+    <table class="striped">
+            <thead>
+                <tr>
+                    <th>
+                        Nombre
+                    </th>
+                    <th>
+                        Rol
+                    </th>
+                    <th>
+                        Estado
+                    </th>
+                    <th>
+                        Acciones
+                    </th>
+                </tr>
+            </thead>
+            <tbody id="contenido">
+                
+            </tbody>
+        </table>
   </div>
+
+</body>
